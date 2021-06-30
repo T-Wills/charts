@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.parentdiv{
+    width:100%;
+    height:auto;
+    padding:3rem;
+    background: white; /* linear-gradient(90deg, rgb(7, 113, 128), rgb(200, 237, 240)); */
+}
+
+.chartcontainer{
+    position: relative;
+    height: 50vh;
+    width: 50vw;
+    align-self: center;
+    margin-left: 25%;
+}
+
+.title{
+    color:blue;
+    font-size: 16px;
+    align-items: center;
+    margin-left: 50%;
+}
