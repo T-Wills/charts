@@ -1,7 +1,7 @@
 import { Pie } from 'react-chartjs-2'
 import React, {useEffect, useState} from "react"
 import Axios from "axios";
-import styles from "../home/styles.module.css";
+import styles from "../Home/styles.module.css";
 
 const PieChart = () => {
   const [region, setRegion] = useState([])

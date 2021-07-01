@@ -1,7 +1,7 @@
 import { Line } from 'react-chartjs-2'
 import React, {useEffect, useState} from "react"
 import Axios from "axios";
-import styles from "../home/styles.module.css";
+import styles from "../Home/styles.module.css";
 
 const LineChart = () => {
   const [statename, setStateName] = useState([])

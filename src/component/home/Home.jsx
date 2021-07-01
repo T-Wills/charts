@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from 'react';
-import styles from "../home/styles.module.css";
+import styles from "../Home/styles.module.css";
 import Nav from "../Nav";
 import Axios from "axios";
-import BarChart from "../charts/BarChart";
-import CompositeBar from "../charts/CompositeBar";
-import Line from "../charts/LineChart";
-import Pie from "../charts/PieChart";
+import BarChart from "../Charts/BarChart";
+import CompositeBar from "../Charts/CompositeBar";
+import Line from "../Charts/LineChart";
+import Pie from "../Charts/PieChart";
 import DropDownList from "../DropDownList";
 
 function Home() {
@@ -29,8 +29,6 @@ function Home() {
            <br />
            <br />
            <br />
-           {/* <br />
-           <br /> */}
             <div className="Chart" id='bar' > 
               <BarChart options={{
                 responsive: true
