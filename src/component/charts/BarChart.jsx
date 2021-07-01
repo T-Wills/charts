@@ -34,7 +34,7 @@ const BarChart = () => {
     }, []);
   /* console.log("cities==>", city) */
 
-  //sort to find the total number of sale per city
+  //sort to find the total number of sales per city
   const sortData = (array) => {
     let firstArray = [],
         secondArray = [],

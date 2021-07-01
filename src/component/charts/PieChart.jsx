@@ -85,7 +85,7 @@ const PieChart = () => {
     <div className='title'>
       <h1 className={styles.title}>Sales by Region</h1>
     </div>
-    <div className={styles.chartcontainer}>
+    <div className={styles.piecontainer}>
       <Pie data={data} options={options} />
     </div>
   </>

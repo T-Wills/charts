@@ -5,13 +5,13 @@
 .parentdiv{
     width:100%;
     height:auto;
-    padding:3rem;
-    background: white; /* linear-gradient(90deg, rgb(7, 113, 128), rgb(200, 237, 240)); */
+    padding:"3rem";
+    background: "white"; /* linear-gradient(90deg, rgb(46, 160, 175), rgb(200, 237, 240));  */
 }
 
 .chartcontainer{
     position: relative;
-    height: 50vh;
+    height: 60vh;
     width: 50vw;
     align-self: center;
     margin-left: 25%;
@@ -22,4 +22,23 @@
     font-size: 16px;
     align-items: center;
     margin-left: 50%;
+}
+
+.piecontainer{
+    position: relative;
+    height:22vh;
+    width: 30vw;
+    align-self: center;
+    margin-left: 25%;
+}
+
+.arrowup{
+    margin-top: 70%;
+}
+
+.p{
+    margin-left:75%;
+    color:blue;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

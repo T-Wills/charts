@@ -6,6 +6,7 @@ import BarChart from "../charts/BarChart";
 import CompositeBar from "../charts/CompositeBar";
 import Line from "../charts/LineChart";
 import Pie from "../charts/PieChart";
+import DropDownList from "../DropDownList";
 
 function Home() {
   const [data, setdata] = useState([])
@@ -23,25 +24,46 @@ function Home() {
         <>
         <div className={styles.parentdiv}>
            <Nav />
-
+           <DropDownList />
+           <br />
+           <br />
+           <br />
+           <br />
+           {/* <br />
+           <br /> */}
             <div className="Chart" id='bar' > 
               <BarChart options={{
                 responsive: true
                }}/>
             </div>
-
+           <br />
+           <br />
+           <br />
+           <br />
+           <br />
+           <br />
             <div className="Chart" id='compositebar' > 
               <CompositeBar options={{
                 responsive: true
                }}/>
             </div>
-
+           <br />
+           <br />
+           <br />
+           <br />
+           <br />
+           <br />
             <div className="Chart" id='line' > 
               <Line options={{
                 responsive: true
                }}/>
             </div>
-
+           <br />
+           <br />
+           <br />
+           <br />
+           <br />
+           <br />
             <div className="Chart" id='pie' > 
               <Pie options={{
                 responsive: true
