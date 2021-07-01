@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react';
-import styles from "../Home/styles.module.css";
 import Nav from "../Nav";
 import Axios from "axios";
 import BarChart from "../Charts/BarChart";
@@ -7,6 +6,7 @@ import CompositeBar from "../Charts/CompositeBar";
 import Line from "../Charts/LineChart";
 import Pie from "../Charts/PieChart";
 import DropDownList from "../DropDownList";
+import styles from "../Home/styles.module.css";
 
 function Home() {
   const [data, setdata] = useState([])
@@ -29,7 +29,7 @@ function Home() {
            <br />
            <br />
            <br />
-            <div className="Chart" id='bar' > 
+            <div className="Chart" > 
               <BarChart options={{
                 responsive: true
                }}/>
@@ -40,7 +40,7 @@ function Home() {
            <br />
            <br />
            <br />
-            <div className="Chart" id='compositebar' > 
+            <div className="Chart" > 
               <CompositeBar options={{
                 responsive: true
                }}/>
@@ -51,7 +51,7 @@ function Home() {
            <br />
            <br />
            <br />
-            <div className="Chart" id='line' > 
+            <div className="Chart"> 
               <Line options={{
                 responsive: true
                }}/>
@@ -62,7 +62,7 @@ function Home() {
            <br />
            <br />
            <br />
-            <div className="Chart" id='pie' > 
+            <div className="Chart"> 
               <Pie options={{
                 responsive: true
                }}/>
