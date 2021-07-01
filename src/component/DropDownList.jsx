@@ -22,7 +22,7 @@ export default function MenuListComposition() {
   return (
     <>
     <div className={styles.p}>
-        <p>Click to view data per sales made</p>
+        <p>Click to view data of sales performance</p>
       </div>
       
     <div className={classes.root}>
